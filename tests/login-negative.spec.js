@@ -1,12 +1,11 @@
 import { test, expect } from '@playwright/test';
+import { LoginPage } from '../pages/LoginPage';
 
 test('Login fails when email is empty', async ({ page }) => {
-  await page.goto('https://the-internet.herokuapp.com/login');
+  const loginPage = new LoginPage(page);
 
-  await page.getByLabel('Password').fill('SuperSecretPassword!');
-  await page.getByRole('button', { name: 'Login' }).click();
+  await loginPage.visit();
+  await loginPage.login('', 'SuperSecretPassword!');
 
-
-  const errorMessage = page.locator('#flash');
-  await expect(errorMessage).toContainText('Your username is invalid');
+  await expect(loginPage.errorMessage).toContainText('username is invalid');
 });
