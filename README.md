@@ -1,6 +1,6 @@
 # QA Automation Playground 🚀
 
-This repository is a **learning and practice space** for becoming a **Job-Ready QA Automation Engineer**, starting from strong QA fundamentals to advanced automation practices.
+This repository is a **learning and practice space** for becoming a **QA Automation Engineer**, starting from strong QA fundamentals to advanced automation practices.
 
 The focus of this project is **real-world QA Automation**, not just tool usage.
 
@@ -40,7 +40,7 @@ This repository will cover:
 - Test data management
 - Environment configuration
 
-### ✅ CI/CD (Optional but Recommended)
+### ✅ CI/CD
 - Automation execution via GitHub Actions
 - Headless test execution
 - Test reports and artifacts
