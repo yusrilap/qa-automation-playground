@@ -1,0 +1,23 @@
+{
+  "name": "qa-automation-playground",
+  "version": "1.0.0",
+  "description": "This repository is a **learning and practice space** for becoming a **Job-Ready QA Automation Engineer**, starting from strong QA fundamentals to advanced automation practices.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yusrilap/qa-automation-playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/yusrilap/qa-automation-playground/issues"
+  },
+  "homepage": "https://github.com/yusrilap/qa-automation-playground#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.3"
+  }
+}
